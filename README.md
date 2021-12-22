@@ -64,7 +64,8 @@ Exemple :
 
 16. Retirer une règle css ajoutée via .css() en utilisant jQuery
 
-17. Ajouter un écouteur d'événement click sur la page et afficher dans l'écouteur si le bouton droit de la souris a été utilisé ou le si le bouton gauche a été utilisé.
+17. Ajouter un écouteur d'événement click sur la page et afficher dans l'écouteur si le bouton droit de la souris 
+    a été utilisé ou le si le bouton gauche a été utilisé.
 
 18. Créer une fonction qui permet de vérifier que son premier paramètre est bien un nombre entier.
 
