@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53d035c6-1ba4-4a5e-ba7d-dcb1255059f6" name="Changes" comment="=&gt;16">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
-    </list>
+    <list default="true" id="53d035c6-1ba4-4a5e-ba7d-dcb1255059f6" name="Changes" comment="=&gt;21" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +56,7 @@
       <workItem from="1640204259758" duration="670000" />
       <workItem from="1640255049504" duration="1939000" />
       <workItem from="1640287447642" duration="1754000" />
-      <workItem from="1640595084134" duration="3305000" />
+      <workItem from="1640595084134" duration="3929000" />
     </task>
     <task id="LOCAL-00001" summary="=&gt;4">
       <created>1640180688806</created>
@@ -89,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640198687813</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="=&gt;21">
+      <created>1640598447502</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640598447502</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +115,7 @@
     <MESSAGE value="=&gt;4" />
     <MESSAGE value="=&gt;8" />
     <MESSAGE value="=&gt;16" />
-    <option name="LAST_COMMIT_MESSAGE" value="=&gt;16" />
+    <MESSAGE value="=&gt;21" />
+    <option name="LAST_COMMIT_MESSAGE" value="=&gt;21" />
   </component>
 </project>
