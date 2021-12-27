@@ -121,4 +121,10 @@ numberLine();
 
 //text entered in a textarea
 
+let textarea = $('#test');
+function text (){
+    return textarea.val();
+}
+console.log(text());
 
+//radio type element
