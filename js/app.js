@@ -31,12 +31,12 @@ function limitText(item, maxCharacters) {
 }
 limitText($("#textarea"), 100);
 
-//first word of a paragraph
-let p = $('.para');
-let word = [];
-word = p.html().split(' ', 1);
-p.html(word).css("fontWeight", "bold");
-
+// //first word of a paragraph
+// function firstWord(para) {
+//     let all = para.get(0).innerHTML.split(" ");
+//     let word = all.shift();
+//     para.text("").append("<b>" + word + "</b>");
+//     para.append(" " + all)
 
 //create div
 let result = $("#result");
@@ -90,4 +90,35 @@ function classe () {
 classe();
 
 //remove css add .css
+dwwm.removeAttr('style');
+
+// event click page
+let body = $('body').mousedown(function(event){
+    console.log("Le clic " + event.which + " a été pressée" );
+});
+
+// whole number
+function numberWhole (number) {
+    if (Number.isInteger(number)) {
+        return 'NumberWhole';
+    }
+    return "Does not numberWhole"
+}
+
+//press touch enter
+$("body").keypress(function (event){
+    if (event.key === "Enter") {
+        console.log("La touche enter a été préssée");
+    }
+})
+
+//returns the number of rows in an array
+function numberLine() {
+    let rowCount = $("#array tr").length
+    console.log(rowCount);
+}
+numberLine();
+
+//text entered in a textarea
+
 
