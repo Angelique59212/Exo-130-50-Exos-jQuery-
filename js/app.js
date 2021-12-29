@@ -33,6 +33,9 @@ limitText($("#textarea"), 100);
 
 // //first word of a paragraph
 // function firstWord(para) {
+//         $(".para").css('textTransform','capitalize')
+// }
+// firstWord();
 //     let all = para.get(0).innerHTML.split(" ");
 //     let word = all.shift();
 //     para.text("").append("<b>" + word + "</b>");
@@ -128,3 +131,21 @@ function text (){
 console.log(text());
 
 //radio type element
+function createButtonRadio() {
+    $("#radio").append('<input type="radio" name = "radio"/>')
+}
+createButtonRadio();
+
+//returns the absolute position of an element
+let lorem = $("#lorem");
+let position = lorem.position();
+lorem.last().text("left : " + position.left + ", top: " + position.top);
+
+//capitalize text
+function capitalize() {
+    $("#formation").css('textTransform','uppercase')
+}
+capitalize();
+
+//user-modified textarea
+

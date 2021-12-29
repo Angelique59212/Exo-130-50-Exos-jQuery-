@@ -79,7 +79,6 @@ Exemple :
 
 23. Créer une fonction qui retourne la position absolue d'un élément html.
 
-
 24. Créer une fonction qui permet de mettre chaque lettre de chaque mot en majuscule dans un texte.
 
 25. Créer une fonction qui permet de détecter qu'un textarea a été modifié par l'utilisateur.
