@@ -218,3 +218,31 @@ function versionJquery() {
     console.log(jQuery.fn.jquery);
 }
 versionJquery();
+
+//remove a specific row from an html table
+function array() {
+    $("#array").eq(3);
+}
+array();
+
+//set the value of an input text
+function valueInput() {
+    $('input:text').val();
+}
+valueInput();
+
+//set the text of an html element
+function textItem() {
+    let resultText = $("#resultText").html();
+}
+textItem();
+
+//returns the class of an item when clicking it
+function classClick() {
+    let resultText = $("#resultText").click(function () {
+        resultText.attr('class');
+    })
+}
+classClick();
+
+//set the href attributes of links on a page when the page loads
