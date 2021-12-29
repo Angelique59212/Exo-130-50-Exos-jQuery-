@@ -246,3 +246,35 @@ function classClick() {
 classClick();
 
 //set the href attributes of links on a page when the page loads
+
+//remove the disabled attribute from an html element passed as a parameter
+// function removeDisabled(element) {
+//     element.removeAttr('disabled');
+// }
+// removeDisabled();
+
+//returns the total width of an html element
+function widthElement() {
+    let selectColor = $("#selected").outerWidth(true);
+    console.log(selectColor)
+}
+widthElement();
+
+//allows you to animate an html element when hovering over it
+function animate() {
+    $("#fadeToggle").hover(function (event) {
+        $("button").fadeToggle(300);
+    })
+}
+animate();
+
+//retrieve all values from a form
+// $(document).ready(function () {
+//     $("#film").val();
+// })
+
+//adds an attribute to an html element and its value
+function elemAttribute() {
+    $("a").attr("target","blank");
+}
+elemAttribute();
