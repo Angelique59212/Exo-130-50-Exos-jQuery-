@@ -69,7 +69,7 @@ $.each(Me, function (property, value) {
 $("#list").append("<li>Ajax</li>")
 
 //function remove select
-$("#genre").click(function () {
+ let genre = $("#genre").click(function () {
      $("select").children().detach();
 })
 let select = $("select").appendTo("select")
@@ -148,4 +148,73 @@ function capitalize() {
 capitalize();
 
 //user-modified textarea
+textarea.change(function () {
+    alert("le texte a été modifié")
+})
 
+//remove an entry from a table
+$('tr').first().hide();
+
+//edit the text of a button
+function changeText() {
+    $("#my-text").text("Mon nouveau texte");
+}
+changeText();
+
+//add multiple entries to a drop-down list
+function addOption() {
+    genre.append('<option></option>');
+}
+addOption();
+
+//set the background of an element
+function background() {
+    $("#formation").css('background','cyan');
+}
+background();
+
+//remove all rows from a table except the first
+function table() {
+    $("tr").siblings().remove();
+}
+table();
+
+//retrieve the current value from a drop-down list
+function value() {
+    $("select#genre").change(function () {
+        genre = $(this).val();
+    })
+}
+value();
+
+//disable a link
+function disable() {
+    $("body a").click(function (event) {
+        event.preventDefault();
+    })
+}
+disable();
+
+//change the class of an item
+$('p').removeClass('myClass').addClass('otherClass');
+
+//add class css to element
+$("a").addClass("css");
+
+//counts the number of child items of a parent item
+function itemChildren() {
+    let select = $("#selected").children("p").length
+}
+itemChildren();
+
+//required number in a textarea
+function numberRequired() {
+    textarea.filter(parseInt(value));
+}
+numberRequired();
+
+//returns the loaded version of jQuery
+function versionJquery() {
+    console.log(jQuery.fn.jquery);
+}
+versionJquery();

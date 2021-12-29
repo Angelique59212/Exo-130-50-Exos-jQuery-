@@ -109,13 +109,11 @@ Exemple :
 <p>Rouge</p>
 <p>Blanc</p>
 <p>Vert</p>
-<p>Noirk</p>
+<p>Noir</p>
 <p>Bleu</p>
 <p>Orange</p>
 </div>
 </body>
-
-
 
 36. Créer une fonction qui permet de contraindre un textarea à n'accepter que des nombres entiers ou des nombres à virgules.
 
